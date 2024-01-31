@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#simulationContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Adjustments for a stacked layout */
+label, select, input[type=range], #biasVoltageValue, #resistanceValue {
+    display: block; /* Stack elements vertically */
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px; /* Add some space between elements */
+}
+
+#graphContainer {
+    margin-top: 20px;
+    width: 100%; /* Adjust width as needed */
+}
+
+#chatWidget {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
